@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+           justify-content: center; /* Horizontally centers the div */
+            align-items: center;     /* Vertically centers the div */
+          height: 100vh;           /* Full height of the viewport */
+          margin: 0;    
+        }
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: lightblue;
+            justify-content: center;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="enter your name" required>
+         <br>
+        <label for="age">Age</label>
+        <input type="text" placeholder="enter your age" required>
+        <br>
+        <br>
+        <button onclick="formSubmit">submit</button>
+    </div>
+    <script src="fiorm.js"></script>
+</body>
+</html>
